@@ -30,9 +30,9 @@ function Sidebar({ setUser, isMobileOpen, setMobileOpen }) {
           </Link>
           <button className="btn btn-link d-md-none text-dark fs-4 text-decoration-none" onClick={closeSidebar}>&times;</button>
         </div>
-        <div className="nav flex-column flex-grow-1 gap-1">
+        <div className="nav flex-column gap-1">
           <Link to="/" className={`nav-link ${location.pathname === '/' ? 'active' : ''}`} onClick={closeSidebar}>
-            📊 Dashboard
+            📊 Pet Dashboard
           </Link>
           <Link to="/add-pet" className={`nav-link ${location.pathname === '/add-pet' ? 'active' : ''}`} onClick={closeSidebar}>
             🐕 Add Pet Profile

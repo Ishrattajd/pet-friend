@@ -38,7 +38,7 @@ function Sidebar({ setUser, isMobileOpen, setMobileOpen }) {
             🐕 Add Pet Profile
           </Link>
           <Link to="/add-log" className={`nav-link ${location.pathname === '/add-log' ? 'active' : ''}`} onClick={closeSidebar}>
-            🥗 Log Meal Meal
+            🥗 Log Meal Meal Meal
           </Link>
         </div>
         <button className="btn btn-outline-danger mt-auto py-2 rounded-pill fw-bold" onClick={handleLogout}>
